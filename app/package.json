@@ -2,9 +2,9 @@
   "name": "homepage",
   "version": "1.0.0",
   "description": "Homepage app challenge",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "test": "n.a"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
   "author": "Maeve Tierney",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "ejs": "^1.0.0"
   },
   "engines": {
     "node": "7.0.0"
